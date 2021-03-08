@@ -2,8 +2,8 @@
   <el-container class="home-container">
     <!-- 头部区域 -->
     <el-header>
-      <div>
-        <img src="../assets/heima.png" alt="">
+      <div class="logoflex">
+        <img src="../assets/logo.png" alt="">
         <span>电商后台管理系统</span>
       </div>
       <el-button type="info" @click="logout">退出</el-button>
@@ -113,6 +113,11 @@ export default {
       margin-left: 15px;
     }
   }
+}
+
+.el-header img{
+    height: 55px;
+    width: 55px;
 }
 
 .el-aside {
